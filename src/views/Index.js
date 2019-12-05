@@ -56,8 +56,6 @@ function Index() {
           <Download5 />
           <Download6 />
           <Download7 />
-          <BasicElements />
-          <Pagination />
         </div>
     </>
   );
