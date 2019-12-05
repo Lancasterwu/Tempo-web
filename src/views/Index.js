@@ -25,7 +25,11 @@ import SignUp from "./index-sections/SignUp.js";
 import Examples from "./index-sections/Examples.js";
 import Download from "./index-sections/Download.js";
 import Download2 from "./index-sections/Download2.js";
-
+import Download3 from "./index-sections/Download3.js";
+import Download4 from "./index-sections/Download4.js";
+import Download5 from "./index-sections/Download5.js";
+import Download6 from "./index-sections/Download6.js";
+import Download7 from "./index-sections/Download7.js";
 
 function Index() {
   React.useEffect(() => {
@@ -46,6 +50,12 @@ function Index() {
         <div className="main">
           <Download />
           <Download2 />
+          <Carousel />
+          <Download3 />
+          <Download4 />
+          <Download5 />
+          <Download6 />
+          <Download7 />
           <BasicElements />
           <Navbars />
           <Tabs />
@@ -53,7 +63,6 @@ function Index() {
           <Notifications />
           <Typography />
           <Javascript />
-          <Carousel />
           <NucleoIcons />
           <CompleteExamples />
           <SignUp />

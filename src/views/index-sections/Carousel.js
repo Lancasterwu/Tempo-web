@@ -14,19 +14,29 @@ import {
 
 const items = [
   {
-    src: require("assets/img/bg1.jpg"),
-    altText: "Nature, United States",
-    caption: "Nature, United States"
+    src: require("assets/img/webpage4.jpg"),
+    altText: "1",
+    caption: "1"
   },
   {
-    src: require("assets/img/bg3.jpg"),
-    altText: "Somewhere Beyond, United States",
-    caption: "Somewhere Beyond, United States"
+    src: require("assets/img/webpage4.jpg"),
+    altText: "2",
+    caption: "2"
   },
   {
-    src: require("assets/img/bg4.jpg"),
-    altText: "Yellowstone National Park, United States",
-    caption: "Yellowstone National Park, United States"
+    src: require("assets/img/webpage4.jpg"),
+    altText: "3",
+    caption: "3"
+  },
+  {
+    src: require("assets/img/webpage4.jpg"),
+    altText: "4",
+    caption: "4"
+  },
+  {
+    src: require("assets/img/webpage4.jpg"),
+    altText: "5",
+    caption: "5"
   }
 ];
 
@@ -54,14 +64,6 @@ function CarouselSection() {
     setActiveIndex(newIndex);
   };
   return (
-    <>
-      <div className="section" id="carousel">
-        <Container>
-          <div className="title">
-            <h4>Carousel</h4>
-          </div>
-          <Row className="justify-content-center">
-            <Col lg="8" md="12">
               <Carousel
                 activeIndex={activeIndex}
                 next={next}
@@ -111,11 +113,6 @@ function CarouselSection() {
                   <i className="now-ui-icons arrows-1_minimal-right"></i>
                 </a>
               </Carousel>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-    </>
   );
 }
 

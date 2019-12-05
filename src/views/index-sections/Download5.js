@@ -5,13 +5,13 @@ import { Button, Container, Row, Col, UncontrolledTooltip } from "reactstrap";
 
 // core components
 
-function Download2() {
+function Download5() {
   return (
     <>
       <div
         className="section section-download"
         style={{
-          backgroundImage: "url(" + require("assets/img/webpage3-2.jpg") + ")",
+          backgroundImage: "url(" + require("assets/img/webpage3.jpg") + ")",
           backgroundSize: "cover",
           backgroundPosition: "top center",
           minHeight: "700px"
@@ -86,4 +86,4 @@ function Download2() {
   );
 }
 
-export default Download2;
+export default Download5;

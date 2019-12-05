@@ -6,9 +6,12 @@
 }
 
 .carousel{
-    .carousel-inner{
-        box-shadow: $box-shadow-raised;
-        border-radius: $border-radius-small;
+    // width:100%;
+    // height:100%;
+    // margin: 0 auto; width: 960px;
+
+    .carousel-item > img {
+      width: 100%;
     }
 
     .card {
