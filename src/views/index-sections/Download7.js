@@ -44,11 +44,18 @@ function Download7() {
           <br></br>
           <br></br>
           <Row className="text-center mt-5">
-            <Col className="ml-auto mr-auto" md="8">
-              <h2>About</h2>
-              <h5 className="description">
-              Sunset Moment with Clouds as the Background
-              Introduction: Creator, Scientist's Spirit
+            <Col className="ml-auto mr-auto" md="8" style={{
+              color: "white"
+            }}>
+              <h2>Contact</h2>
+              <h5>
+              Congratz! I have reached the bottom of this website. Hope you have found helpful information about me.
+              </h5>
+              <h5>
+              Feel free to contact me through email: wuj@allegheny.edu
+              </h5>
+              <h5>
+              or phone: 773-313-7450
               </h5>
             </Col>
           </Row>
