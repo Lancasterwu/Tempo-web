@@ -23,6 +23,7 @@ import NucleoIcons from "./index-sections/NucleoIcons.js";
 import CompleteExamples from "./index-sections/CompleteExamples.js";
 import SignUp from "./index-sections/SignUp.js";
 import Examples from "./index-sections/Examples.js";
+import Download0 from "./index-sections/Download0.js";
 import Download from "./index-sections/Download.js";
 import Download2 from "./index-sections/Download2.js";
 import Download3 from "./index-sections/Download3.js";
@@ -45,9 +46,8 @@ function Index() {
   });
   return (
     <>
-      <div className="wrapper">
-        <IndexHeader />
         <div className="main">
+          <Download0 />
           <Download />
           <Download2 />
           <Carousel />
@@ -57,18 +57,8 @@ function Index() {
           <Download6 />
           <Download7 />
           <BasicElements />
-          <Navbars />
-          <Tabs />
           <Pagination />
-          <Notifications />
-          <Typography />
-          <Javascript />
-          <NucleoIcons />
-          <CompleteExamples />
-          <SignUp />
-          <Examples />
         </div>
-      </div>
     </>
   );
 }

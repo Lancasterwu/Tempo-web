@@ -5,13 +5,13 @@ import { Button, Container, Row, Col, UncontrolledTooltip } from "reactstrap";
 
 // core components
 
-function Download5() {
+function Download0() {
   return (
     <>
       <div
         className="section section-download"
         style={{
-          backgroundImage: "url(" + require("assets/img/webpage7.jpg") + ")",
+          backgroundImage: "url(" + require("assets/img/webpage1-2.jpg") + ")",
           backgroundSize: "100% 100%",
           backgroundPosition: "top center",
           minHeight: "700px"
@@ -44,11 +44,19 @@ function Download5() {
           <br></br>
           <br></br>
           <Row className="text-center mt-5">
-            <Col className="ml-auto mr-auto" md="8">
-              <h2>About</h2>
-              <h5 className="description">
-              Sunset Moment with Clouds as the Background
-              Introduction: Creator, Scientist's Spirit
+            <Col className="ml-auto mr-auto" md="8"
+            style={{
+              color: "white"
+            }}
+            >
+              <h2>Hello, This is Lancaster.</h2>
+              <h5>Here is the theme of my "handmade" website:</h5>
+              <h5 className="description"
+              style={{
+                color: "white"
+              }}
+              >
+              Humanity, Society, Creativity.
               </h5>
             </Col>
           </Row>
@@ -86,4 +94,4 @@ function Download5() {
   );
 }
 
-export default Download5;
+export default Download0;

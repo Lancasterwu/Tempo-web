@@ -11,8 +11,8 @@ function Download7() {
       <div
         className="section section-download"
         style={{
-          backgroundImage: "url(" + require("assets/img/webpage4.jpg") + ")",
-          backgroundSize: "cover",
+          backgroundImage: "url(" + require("assets/img/webpage9.jpg") + ")",
+          backgroundSize: "100% 100%",
           backgroundPosition: "top center",
           minHeight: "700px"
         }}
