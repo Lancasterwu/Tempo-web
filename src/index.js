@@ -16,6 +16,7 @@
 
 */
 import React from "react";
+import ReactGA from 'react-ga';
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
@@ -30,6 +31,15 @@ import NucleoIcons from "views/NucleoIcons.js";
 import LoginPage from "views/examples/LoginPage.js";
 import LandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
+import auth from './auth.ts'; // Sample authentication provider
+
+const trackingId = "UA-124912730-1 "; // Replace with your Google Analytics tracking ID
+ReactGA.initialize(trackingId);
+ReactGA.set({
+  userId: auth.currentUserId(),
+  // any data that is relevant to the user session
+  // that you would like to track with google analytics
+})
 
 ReactDOM.render(
   <BrowserRouter>
