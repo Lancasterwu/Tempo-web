@@ -49,10 +49,13 @@ function Download3() {
             }}>
               <h2>Computer Science</h2>
               <h5>
-              I am interested in CS because I believe CS will be a Common Language that everyone speaks in fure
+              My perspective on CS is that it will be a Common Language that everyone speaks in future.
               </h5>
               <h5>
-              I am specialized in software development and have deep understanding on Python, Java, LaTex, Data Analysis, Artificial Intelligent
+              Besides I feel it is necessary to study Computer Science, I am also interested in it because I am looking at it as a way of creation, sjuch that coding is similar to painting.
+              </h5>
+              <h5>
+              I am specialized in software development and I have deep understanding on Python, Java, LaTex, Data Analysis, Artificial Intelligent
               </h5>
             </Col>
           </Row>
